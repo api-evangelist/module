@@ -1,7 +1,24 @@
 aid: module
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/module.png
 name: Module
-description: Module is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Module is a vertically integrated sustainable housing company that designs, manufactures,
+  and builds modular homes. Operating across design (architecture and engineering with BIM), manufacturing
+  (its Last Mile Facility in Pittsburgh), and construction (licensed general contracting), Module focuses
+  on infill and "missing middle" housing, small-footprint and energy-efficient affordable homes, and
+  mixed-income developments through its Last Mile Network of design, construction, and mission-driven
+  developer partner programs. Surfaced as a Techstars portfolio company and enriched in the API Evangelist
+  network; Module publishes no public API, developer portal, or technical documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/module/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Housing
+- Construction
+- Manufacturing
+- Modular
+- Real Estate
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/module-domain-security.yml
 - type: Website
   url: https://modulehousing.com/
