@@ -46,7 +46,7 @@ tags:
 - Construction
 - Manufacturing
 - Modular
-- Real-Estate
+- Real Estate
 - Sustainability
 tags_raw:
 - Company
@@ -56,6 +56,7 @@ tags_raw:
 - Modular
 - Real Estate
 - Sustainability
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
